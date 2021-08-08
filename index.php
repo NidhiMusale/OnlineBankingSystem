@@ -1,4 +1,4 @@
-/*
+
 <?php 
 if(isset($_REQUEST['submitBtn'])){
     include '_inc/dbconn.php';
@@ -32,7 +32,7 @@ session_start();
 if(isset($_SESSION['customer_login'])) 
     header('location:customer_account_summary.php');   
 ?>
-*/
+
 <!DOCTYPE html>
 
 <html>
